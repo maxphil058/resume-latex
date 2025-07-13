@@ -1,3 +1,4 @@
+```latex
 \documentclass[a4paper,10pt]{article}
 \usepackage{latexsym}
 \usepackage[empty]{fullpage}
@@ -10,7 +11,8 @@
 \usepackage{fancyhdr}
 
 \pagestyle{fancy}
-\fancyhf{}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
 \renewcommand{\headrulewidth}{0pt}
 
 % Adjust margins
@@ -68,15 +70,13 @@
 %-----------EDUCATION-----------
 \section*{\underline{Education}}
 \resumeSubHeadingListStart
-
   \resumeSubheading
     {Algonquin College}{Jan 2025 -- Present}
     {Diploma in Computer Programming}{Ottawa, Canada}
-
+  
   \resumeSubheading
     {National Institute of Information Technology (NIIT)}{Jan 2024 -- Aug 2024}
     {Diploma in Full Stack Web Development}{Abuja, Nigeria}
-
 \resumeSubHeadingListEnd
 
 %-----------EXPERIENCE-----------
@@ -87,27 +87,27 @@
     {Freelance Web Developer}{2023 -- Present}
     {Remote}{}
     \resumeItemListStart
-      \resumeItem{Developed responsive, full-stack web apps using \textbf{React, Firebase, and SQL}, improving mobile performance scores by 35\%.}
-      \resumeItem{Implemented custom automation scripts and back-end logic, streamlining deployment and CI workflows.}
-      \resumeItem{Optimized SEO and accessibility across client sites, increasing web traffic by 50\% using Lighthouse metrics.}
+      \resumeItem{Engineered and deployed full-stack web applications using \textbf{React, Firebase, SQL}, enhancing client site performance by 40\%.}
+      \resumeItem{Automated deployment workflows with GitHub and improved development cycles, reducing client turnaround by 30\%.}
+      \resumeItem{Collaborated with 5+ clients to translate business needs into technical solutions, improving SEO and user engagement.}
     \resumeItemListEnd
 
   \resumeSubheading
-    {Web Developer Intern — E-Clinic \& Diagnostic}{Sep 2024 -- Dec 2024}
-    {Lagos, Nigeria}{}
+    {Web Developer Intern}{Sep 2024 -- Dec 2024}
+    {E-Clinic \& Diagnostic, Nigeria}{}
     \resumeItemListStart
-      \resumeItem{Collaborated with engineering team to develop modular features for a patient healthcare system using \textbf{JavaScript and PostgreSQL}.}
-      \resumeItem{Optimized SQL queries for analytics dashboards, reducing data load time by 40\%.}
-      \resumeItem{Participated in Agile ceremonies and performed code reviews, gaining exposure to team-based software development.}
+      \resumeItem{Contributed to a healthcare application by implementing bug fixes and new features using \textbf{JavaScript} and \textbf{SQL}.}
+      \resumeItem{Optimized SQL queries to enhance database responsiveness by 35\%.}
+      \resumeItem{Participated in Agile sprints and collaborated with senior developers on design reviews and testing practices.}
     \resumeItemListEnd
 
   \resumeSubheading
-    {Web Development Assistant — Poshwash DryCleaners}{2022 -- 2023}
-    {Abuja, Nigeria}{}
+    {Web Development Assistant}{2022 -- 2023}
+    {Poshwash DryCleaners, Abuja, Nigeria}{}
     \resumeItemListStart
-      \resumeItem{Contributed to the development of customer service portals using \textbf{React and SQL}, improving engagement by 25\%.}
-      \resumeItem{Automated customer record processes with SQL scripts, saving over 10+ hours in weekly manual entry.}
-      \resumeItem{Supported system architecture planning and wireframing for feature rollouts in small teams.}
+      \resumeItem{Redesigned a customer management system interface, improving user satisfaction scores by 20\%.}
+      \resumeItem{Used \textbf{SQL} to automate data collection and reporting, saving 8+ hours of manual work per week.}
+      \resumeItem{Supported back-end logic for service request tracking modules using \textbf{JavaScript} and SQL.}
     \resumeItemListEnd
 
 \resumeSubHeadingListEnd
@@ -119,17 +119,17 @@
   \resumeProjectHeading
     {\textbf{Movie Finder \& Streaming App} • \textit{React, JavaScript, Firebase, REST API}}{2024}
     \resumeItemListStart
-      \resumeItem{Built a dynamic UI allowing users to fetch and view real-time movie data from an external REST API.}
-      \resumeItem{Integrated Firebase Authentication and Realtime Database for secured user sessions and history tracking.}
-      \resumeItem{Linked streaming content through external APIs, enabling seamless viewing experiences.}
+      \resumeItem{Built a responsive platform to fetch and display real-time movie data using REST API calls.}
+      \resumeItem{Integrated third-party streaming services and Firebase authentication for seamless access control.}
+      \resumeItem{Enhanced search algorithm efficiency, improving user query response by 50\%.}
     \resumeItemListEnd
 
   \resumeProjectHeading
     {\textbf{Task Manager App} • \textit{React, Firebase, Tailwind CSS}}{2024}
     \resumeItemListStart
-      \resumeItem{Developed a real-time task tracking system with CRUD functionality using Firebase Cloud Firestore.}
-      \resumeItem{Enhanced accessibility and responsiveness through Tailwind CSS, achieving a 95\% Lighthouse score.}
-      \resumeItem{Implemented role-based access for multi-user environments, supporting collaborative task delegation.}
+      \resumeItem{Designed and implemented a task management app with real-time CRUD operations using Firebase.}
+      \resumeItem{Crafted responsive UI with Tailwind CSS, increasing usability on mobile and tablet by 60\%.}
+      \resumeItem{Built authentication flow using Firebase Auth, enabling secure user access.}
     \resumeItemListEnd
 
 \resumeSubHeadingListEnd
@@ -137,11 +137,12 @@
 %-----------TECHNICAL SKILLS-----------
 \section*{\underline{Technical Skills}}
 \resumeSubHeadingListStart
-  \resumeSubItem{\textbf{Languages:} Java, JavaScript, Python, C++, C\#, TypeScript}
+  \resumeSubItem{\textbf{Languages:} C++, C\#, Java, Python, JavaScript, TypeScript}
   \resumeSubItem{\textbf{Web Development:} HTML5, CSS3, React, Tailwind CSS, Bootstrap, Node.js}
-  \resumeSubItem{\textbf{Backend \& Databases:} SQL, PostgreSQL, MySQL, Firebase, MongoDB}
-  \resumeSubItem{\textbf{Tools \& Frameworks:} Git, GitHub, Docker (basic), VS Code, IntelliJ, Express.js, jQuery}
-  \resumeSubItem{\textbf{Concepts:} Object-Oriented Programming, REST APIs, CI/CD, UML, Agile/Scrum, Linux Bash, Testing (JUnit, Postman)}
+  \resumeSubItem{\textbf{Databases \& Backend:} SQL, MySQL, PostgreSQL, Firebase (Firestore \& Auth), MongoDB}
+  \resumeSubItem{\textbf{Frameworks \& Tools:} Express.js, jQuery, Git, GitHub, VS Code, IntelliJ, Eclipse, Docker (basic)}
+  \resumeSubItem{\textbf{Concepts:} OOP, UML, Agile/Scrum, REST APIs, JSON, XML, Linux Shell, JUnit, DevTools, Postman}
 \resumeSubHeadingListEnd
 
 \end{document}
+```
