@@ -1,0 +1,141 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.375in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{0.75in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+% --- START OF LATEX MACROS ---
+\newcommand{\resumeItem}[1]{\item\small{{#1 \vspace{-2pt}}}}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+  \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+  \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+% --- END OF LATEX MACROS ---
+
+\begin{document}
+
+\begin{center}
+  {\Huge \scshape Phil Maxwell-Mgbudem} \\ \vspace{1pt}
+  Ottawa, Canada \enspace • \enspace \href{mailto:maxw0090@algonquinlive.com}{maxw0090@algonquinlive.com} \enspace • \enspace (416) 732-8520 \\
+  \href{https://www.linkedin.com/philmaxwell-mgbudem}{linkedin.com/in/philmaxwell-mgbudem} \enspace • \enspace \href{https://github.com/maxphil058}{github.com/maxphil058}
+\end{center}
+
+%-----------EDUCATION-----------
+\section{Education}
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {Algonquin College}{Jan 2025 -- Present}
+    {Diploma in Computer Programming}{Ottawa, Canada}
+  
+  \resumeSubheading
+    {National Institute of Information Technology (NIIT)}{Jan 2024 -- Aug 2024}
+    {Diploma in Full Stack Web Development}{Abuja, Nigeria}
+\resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+\resumeSubHeadingListStart
+
+  \resumeSubheading
+    {Freelance Web Developer}{Remote}{Self-Employed}{2023 -- Present}
+    \resumeItemListStart
+      \resumeItem{Developed responsive web applications using \textbf{React, Firebase, and SQL}, improving mobile performance scores by 35\% on Lighthouse.}
+      \resumeItem{Implemented front-end and back-end features to support e-commerce and booking systems, enhancing user experience and functionality.}
+      \resumeItem{Collaborated with small business clients to deliver custom SEO-optimized websites, increasing their online traffic by up to 50\%.}
+    \resumeItemListEnd
+
+  \resumeSubheading
+    {Web Developer Intern}{E-Clinic \& Diagnostic}{Lagos, Nigeria}{Sep 2024 -- Dec 2024}
+    \resumeItemListStart
+      \resumeItem{Assisted in developing patient portal features using \textbf{JavaScript} and \textbf{SQL}, improving load time by 20\%.}
+      \resumeItem{Optimized healthcare database queries using indexing techniques, reducing query response times by 40\%.}
+      \resumeItem{Worked in an Agile team to identify and resolve bugs, enhancing overall system reliability.}
+    \resumeItemListEnd
+
+  \resumeSubheading
+    {Web Development Assistant}{Poonshax Development}{Abuja, Nigeria}{2022 -- 2023}
+    \resumeItemListStart
+      \resumeItem{Contributed to the redesign of a customer management system using \textbf{React} and \textbf{SQL}, improving user task flow efficiency by 25\%.}
+      \resumeItem{Automated data collection processes via SQL scripts, reducing manual work by over 10 hours per week.}
+      \resumeItem{Collaborated with UI/UX designers to customize user interaction workflows based on user feedback.}
+    \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{Projects}
+\resumeSubHeadingListStart
+
+  \resumeProjectHeading
+    {\textbf{Movie Finder \& Streaming App} • \textit{React, JavaScript, Firebase, REST API}}{2024}
+    \resumeItemListStart
+      \resumeItem{Built a movie discovery and streaming interface fetching live data from a RESTful API, enabling real-time movie search and streaming.}
+      \resumeItem{Integrated Firebase for user authentication and real-time database syncing, improving data consistency across users.}
+    \resumeItemListEnd
+
+  \resumeProjectHeading
+    {\textbf{Task Manager App} • \textit{React, Firebase, Tailwind CSS}}{2024}
+    \resumeItemListStart
+      \resumeItem{Designed a real-time task tracking application with Firebase-based CRUD operations, enabling instant updates across clients.}
+      \resumeItem{Improved accessibility and responsiveness using Tailwind CSS, resulting in a 95\% Lighthouse accessibility score.}
+    \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+\resumeSubHeadingListStart
+  \resumeSubItem{\textbf{Languages:} Java, JavaScript, Python, C++, C\#, TypeScript}
+  \resumeSubItem{\textbf{Web Development:} HTML5, CSS3, React, Tailwind CSS, Bootstrap, Node.js}
+  \resumeSubItem{\textbf{Backend \& Databases:} SQL, MySQL, PostgreSQL, Firebase (Firestore \& Auth), MongoDB}
+  \resumeSubItem{\textbf{Frameworks \& Tools:} Express.js, Docker (basic), Git, GitHub, VS Code, IntelliJ, Eclipse}
+  \resumeSubItem{\textbf{Concepts:} REST APIs, Object-Oriented Programming, Agile, Scrum, UML, Jenkins (basic), Linux Shell}
+\resumeSubHeadingListEnd
+
+\end{document}
